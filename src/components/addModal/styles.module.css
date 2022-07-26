@@ -1,0 +1,44 @@
+.modalButton {
+    margin: 5rem 0.5rem 0.5rem 0.5rem;
+    font-size: 1.3rem;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    padding: 2rem 4rem 2rem 4rem;
+}
+
+.modalTitle {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.modalForm {
+    display: flex;
+    margin: 1rem;
+    flex-direction: column;
+}
+
+.buttonsArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.modalTextfield input {
+    font-size: 1.5rem;
+}
+
+.modalTextfield label {
+    font-size: 1.5rem;
+}

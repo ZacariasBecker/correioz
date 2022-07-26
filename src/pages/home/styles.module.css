@@ -1,0 +1,35 @@
+.container span {
+    font-size: 4rem;
+}
+
+.itemContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+}
+
+.addButton {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    right: 2rem;
+    bottom: 2rem;
+    font-size: 3rem;
+    height: 4rem;
+    width: 4rem;
+    background-color: rgb(21, 82, 79);
+    color: rgb(255, 255, 255);
+    border: 0.5rem rgb(255, 255, 255) solid;
+    border-radius: 100%;
+    margin: 0.2rem;
+    cursor: pointer;
+    padding: 3rem;
+
+}
+
+.addButton:hover {
+    background-color: rgb(32, 121, 116);
+    transition: 200ms;
+}
