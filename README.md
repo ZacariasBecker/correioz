@@ -1,46 +1,46 @@
-# Getting Started with Create React App
+# Correioz  :package:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Interface web para o monitoramento de encomendas dos correios.
 
-## Available Scripts
+## Objetivo
 
-In the project directory, you can run:
+Essa aplicação não tem como objetivo ser um produto final, ele foi desenvolvido com o intuito de praticar novas tecnologias que estou atualmente estudando como o TypeScrip e Redux dentro do React.
 
-### `yarn start`
+## API
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Essa aplicação utiliza uma api externa para realizar a requisição dos dados das encomendas. E devido ao mecanismo de segurança, é provável que você receba um alerta informando que você está realizando muitas requisições ao tentar cadastrar uma nova encomenda, se isso acontecer basta tentar adicionar novamente a encomenda.
+Para saber mais sobre a api [clique aqui][LinkeTrack].
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Persistência dos dados
 
-### `yarn test`
+Essa aplicação não possui nenhum tipo de persistência de dados implementado, fazendo com que o reload da página resete todas as encomendas já cadastradas.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Futuras possíveis atualizações
+Sem data definida, pretendo futuramente implementar algumas funcionalidades, como:
+- Botão de Reload, para recarregar os dados de encomenda.
+- Interruptor para modo escuro.
+- Persistência resistente a recarregamento de página.
+- Criação de um backend para servir dados para essa interface.
+- Persistência de dados em Local Storage.
 
-### `yarn build`
+## Executar aplicação
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para executar a aplicação basta clonar este repositório, e executar os seguintes comandos:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Com yarn:**
+`yarn`
+e depois:
+`yarn start`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Com npm:**
+`npm i`
+e depois:
+`npm start`
 
-### `yarn eject`
+## Sobre
+### Autor:
+Zacarias Becker
+### License:
+MIT
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[LinkeTrack]: https://github.com/chipytux/correiosApi "clique aqui"
